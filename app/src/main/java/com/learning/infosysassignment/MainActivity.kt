@@ -37,8 +37,6 @@ class MainActivity : AppCompatActivity() {
 
         // getToolbar
         val actionBar = supportActionBar
-
-
         val application = this.application
         val newsDataRepo = NewsDataRepo(application)
         val factory = NewsDataViewModel.NewsDataModelFactory(application)
