@@ -74,30 +74,14 @@ class MainActivity : AppCompatActivity() {
 
 
 
+
+
             }
 
         })
 
 
-        /* NewsApi.newsApiServive.getNewsFromUrl().enqueue(object:
-           Callback<NewsList> {
-             override fun onFailure(call: Call<NewsList>, t: Throwable) {
 
-                 val error:String=t.message.toString()
-                 Log.i("Error","errro"+error)
-
-             }
-
-             override fun onResponse(call: Call<NewsList>, response: Response<NewsList>) {
-                 val res:NewsList?=response.body()
-                  recycle_view.adapter=NewsAdapter(application,res)
-                  Log.i("Response","res"+res)
-
-             }
-
-         })
-
- */
 
 
     }
