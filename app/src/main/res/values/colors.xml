@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="news_list_item_title">#3333cc</color>
+    <color name="news_card_background">#ededed</color>
+    <color name="news_list_item_title_desc">#363636</color>
+    <dimen name="titlesize">18dp</dimen>
+    <dimen name="title_desc_size">16dp</dimen>
+
+</resources>
