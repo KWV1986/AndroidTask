@@ -33,4 +33,7 @@ class Employee {
          Log.i("I am in add name()","")
      }
 
+     fun saveData(){
+
+     }
  }
