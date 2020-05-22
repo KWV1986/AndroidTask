@@ -1,6 +1,8 @@
 package com.learning.infosysassignment.model
 
- class Employee {
+import android.util.Log
+
+class Employee {
 
     var name:String=""
     var add:String=""
@@ -27,6 +29,7 @@ package com.learning.infosysassignment.model
      }
      fun addName(){
 
+         Log.i("I am in add name()","")
      }
 
  }
