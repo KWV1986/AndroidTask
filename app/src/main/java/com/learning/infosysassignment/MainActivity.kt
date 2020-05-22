@@ -1,5 +1,6 @@
 package com.learning.infosysassignment
 
+import android.app.ProgressDialog.show
 import android.os.Bundle
 import android.util.Log
 import android.view.View
@@ -31,7 +32,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         initviews()
+        show()
 
+
+    }
+
+    private fun show() {
+       Log.i("TAG","Add Show() by sachin")
     }
 
     private fun initviews() {
