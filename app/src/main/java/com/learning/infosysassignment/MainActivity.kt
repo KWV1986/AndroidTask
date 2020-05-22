@@ -31,13 +31,18 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        initviews()
+        Log.i("TAG","OnCreate")
+        Log.i("TAG","OnCreate")
+        Log.i("TAG","Oncreate")
         show()
+        initviews()
+      
 
 
     }
 
-    private fun show() {
+    private fun show() { 
+        Log.i("TAG","Add show() by deepak")
        Log.i("TAG","Add Show() by sachin")
     }
 
