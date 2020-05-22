@@ -33,9 +33,14 @@ class MainActivity : AppCompatActivity() {
         Log.i("TAG","OnCreate")
         Log.i("TAG","OnCreate")
         Log.i("TAG","Oncreate")
+        show()
         initviews()
 
 
+    }
+
+    private fun show() {
+        Log.i("TAG","Add show() by deepak")
     }
 
     private fun initviews() {
