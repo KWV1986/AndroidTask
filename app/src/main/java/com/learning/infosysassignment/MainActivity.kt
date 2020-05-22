@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         Log.i("TAG","OnCreate")
         Log.i("TAG","OnCreate")
+        Log.i("TAG","Oncreate")
         initviews()
 
 
