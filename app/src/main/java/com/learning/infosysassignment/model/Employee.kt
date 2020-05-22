@@ -28,5 +28,9 @@ class Employee {
          
      }
 
+     fun addName(){
+
+         Log.i("I am in add name()","")
+     }
 
  }
