@@ -21,4 +21,12 @@ package com.learning.infosysassignment.model
     override fun toString(): String {
         return super.toString()
     }
-}
+     fun getName ()
+     {
+         
+     }
+     fun addName(){
+
+     }
+
+ }
